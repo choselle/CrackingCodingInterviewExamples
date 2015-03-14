@@ -1,3 +1,5 @@
+//Implement an algorithm to determine if a string has all unique characters.
+
 import java.util.Scanner;
 
 public class unique {
@@ -21,7 +23,7 @@ public class unique {
 		System.out.print("Enter a string> ");
 		String str = keyb.next();
 
-		if (checkForUnique(str) == true) 
+		if (checkForUnique(str)) 
 			System.out.println("Unique Characters Found");
 		else 
 			System.out.println("Unique Characters Not Found");

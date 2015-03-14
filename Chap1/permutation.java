@@ -1,3 +1,5 @@
+//Given two strings, write a method to decide if one is a permutation of the other.
+
 import java.util.Scanner;
 
 public class permutation {
@@ -19,8 +21,10 @@ public class permutation {
 		System.out.print("Enter two strings> ");
 		String s1 = keyb.next(); String s2 = keyb.next();
 
-		if (permutation(s1, s2)) System.out.println(s1 + " is a permuation of " + s2);
-		else System.out.println(s1 + " is not a permuation of " + s2);
+		if (permutation(s1, s2)) 
+			System.out.println(s1 + " is a permuation of " + s2);
+		else 
+			System.out.println(s1 + " is not a permuation of " + s2);
 	}
 
 }
